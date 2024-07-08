@@ -9,6 +9,10 @@
 
 /* Shared Style */
 
+.text-center{
+    text-align: center;
+}
+
 .text-primary{
     color: #fd6e0a;
 }
@@ -22,9 +26,10 @@
     font-size: 20px;
     font-weight: bold;
     color: white;
-    padding: 18px 35px;
-    border-radius: 5px;
+    padding: 15px 35px;
+    border-radius: 7px;
     border: none;
+    margin-right: 25px;
 }
 
 .btn-contact{
@@ -32,8 +37,8 @@
     font-size: 20px;
     font-weight: bold;
     color: #fd6e0a;
-    padding: 18px 35px;
-    border-radius: 5px;
+    padding: 15px 35px;
+    border-radius: 7px;
     border:1px solid #fd6e0a;
 }
 
@@ -131,7 +136,6 @@ nav li a{
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
-    margin-top: 130px;
 }
 
 .about-items{
@@ -154,3 +158,18 @@ main{
     margin: 0 auto;
 }
 
+main section{
+    margin-top: 130px;
+}
+
+.skill-container{
+    display: flex;
+    gap: 24px;
+    margin-top: 50px;
+}
+
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
